@@ -1,0 +1,88 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+body {
+  margin: 0 auto;
+  min-height: 480px;
+  font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif; }
+
+h1.simple {
+  text-align: center;
+  font-size: 0.9em;
+  padding: 4px;
+  background: #333333;
+  color: #AAAAAA;
+  border-bottom: 2px solid #AAAAAA;
+  margin: 0 0 4px 0; }
+
+h1.fancy {
+  background-color: #aebcbf;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFAEBCBF', endColorstr='#FF0A0809');
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzY2NjY2NiIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjM2EzYTNhIi8+PHN0b3Agb2Zmc2V0PSI1MSUiIHN0b3AtY29sb3I9IiMyMjIyMjIiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #666666), color-stop(50%, #3a3a3a), color-stop(51%, #222222), color-stop(100%, #000000));
+  background-image: -moz-linear-gradient(top, #666666 0%, #3a3a3a 50%, #222222 51%, #000000 100%);
+  background-image: -webkit-linear-gradient(top, #666666 0%, #3a3a3a 50%, #222222 51%, #000000 100%);
+  background-image: linear-gradient(to bottom, #666666 0%, #3a3a3a 50%, #222222 51%, #000000 100%);
+  -webkit-box-shadow: 0 2px 1px #AAAAAA;
+  -o-box-shadow: 0 2px 1px #AAAAAA;
+  -moz-box-shadow: 0 2px 1px #AAAAAA;
+  box-shadow: 0 2px 1px #AAAAAA;
+  -webkit-border-radius: 0 0 10px 10px;
+  -moz-border-radius: 0 0 10px 10px;
+  -ms-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+  font-size: 1.1em;
+  color: white;
+  padding: 10px 8px;
+  margin: 0 6px 6px 6px; }
+
+form ul {
+  margin: 0;
+  padding: 6px;
+  list-style-type: none; }
+form li {
+  margin: 0 0 4px 0;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  border: 1px solid #666666;
+  padding: 4px; }
+  form linaked {
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    border: 0;
+    padding: 0; }
+form input, form textarea {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: 0;
+  width: 99%; }
+form button {
+  border: 1px solid white;
+  width: 100%;
+  padding: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 0 4px #333333;
+  -o-box-shadow: 0 0 4px #333333;
+  -moz-box-shadow: 0 0 4px #333333;
+  box-shadow: 0 0 4px #333333;
+  background-color: #AAAAAA;
+  /* Fallback Color */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#AAAAAA));
+  /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #AAAAAA);
+  /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image: -moz-linear-gradient(top, #f8f8f8, #AAAAAA);
+  /* FF3.6 */
+  background-image: -ms-linear-gradient(top, #f8f8f8, #AAAAAA);
+  /* IE10 */
+  background-image: -o-linear-gradient(top, #f8f8f8, #AAAAAA);
+  /* Opera 11.10+ */
+  background-image: linear-gradient(to bottom, #f8f8f8, #aaaaaa);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#f8f8f8', EndColorStr='#AAAAAA'); }
